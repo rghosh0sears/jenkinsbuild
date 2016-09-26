@@ -1,0 +1,9 @@
+{"credentials": {
+    "mongo": {
+        "host": "ds035836.mlab.com:",
+        "username": "qweqwe",
+        "password": "poiuytrewq123",
+        "port": "35836",
+        "dbname":"mdetest"
+    }
+}}
