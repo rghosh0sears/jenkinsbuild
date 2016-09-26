@@ -4,7 +4,7 @@ var bcrypt = require('bcrypt-nodejs');
 var bodyParser = require("body-parser");
 var jsonfile = require('jsonfile');
 var config = require('./config');
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'); 
 // Specify a string key:
 // Don't do this though, your keys should most likely be stored in env variables
 // and accessed via process.env.MY_SECRET_KEY
