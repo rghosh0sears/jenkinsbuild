@@ -4,7 +4,7 @@ var bcrypt = require('bcrypt-nodejs');
 var bodyParser = require("body-parser");
 var jsonfile = require('jsonfile');
 var config = require('./config');
-var mongoose = require('mongoose'); 
+var mongoose = require('mongoose');
 // Specify a string key:
 // Don't do this though, your keys should most likely be stored in env variables
 // and accessed via process.env.MY_SECRET_KEY
@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 var path = require('path');
 var originalPassword = "SamplePassWord";
-// views as directory for all template files
+// views as directory for all template files 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs'); // use either jade or ejs       // instruct express to server up static assets
 app.use(express.static('public'));
